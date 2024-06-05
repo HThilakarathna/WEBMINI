@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Collection of Hobbies</title>
+   
+    <style>
+        body {
+            background-image: url(reduse\ -\ Copy/abc-min.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .main {
+            width: 100%;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.8);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        ul {
+            float: right;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block;
+        }
+        ul li a {
+            display: block;
+            text-decoration: none;
+            color: rgb(73, 42, 165);
+            padding: 20px;
+            border: 1px solid #fff;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        .logo img{
+            float: left;
+            width: 100px;
+            height: auto;
+        }
+        .title{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .title h1{
+            color: #1f55e9;
+            font-size: 70px;
+        }
+        .button{
+            position: absolute;
+            top: 60%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .btn{
+            border: 1px solid#fff;
+            padding: 10px 30px;
+            color: #18d495;
+            text-decoration: none;
+            transition: 0.6s ease;
+        }
+        .btn:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        .form{
+            width: 250px; 
+            height: 380px;
+            background: linear-gradient(to top, color#01011a)50%,color#01011a)50%;
+            postion: absolute
+            top: -20px;
+            left: 870px;
+            border- redius: 10px;
+            padding: 25px;
+ 
+        }
+        .form h2{
+            width: 220px;
+            font-family: sans-serif;
+            text-align: center;
+            color: crimson;
+            font-size: 60px;
+            background-color: #f9f5f5;
+            border-radius: 10px;
+            max-width: 2px;
+            padding: 8px;
+        }
+        .form input{
+            width:240px ;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid chocolate;
+            border-top: none ;
+            border-right: none;
+            border-left: none;
+            color: #f9f5f5;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 38px;
+            font-family: sans-serif;
+        }
+        .form input:focus{
+            outline: none;
+        }
+        ::placeholder{
+            color: #0c0b0b;
+            font-size: Arial;
+        }
+       
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="reduse - Copy/logo-min.jpg" alt="logo">
+            </div>
+            <ul>
+                <li><a href="hobbyhome.html">hobbyhome</a></li>
+                <li><a href="aboutus.html">aboutus</a></li>
+                <li><a href="galleryh.html">galleryh</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                
+            </ul>
+        </div>
+        <div class="title">
+            <h1 style="color: rgb(41, 6, 241);">Collection of Hobbies</h1>
+            </div>
+            <div class="button">
+                <a href="#" class="btn">WATCH VIDEO</a>
+                <a href="#" class="btn">LEARN MORE</a>
+            </div>
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email"placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btn"><a href="#">Login</a></button>
+           
+                <p class="link">Don't have an account</p>
+                <a href="#">Sign Up  Here</a>
+                <p class="liw">Log in With </p>
+            </header>
+    
+    <h1><b>Welcome to Collection of Hobbies!</b></h1>
+    <p><b> website is dedicated to showcasing different hobbies and interests that people may have. It is a platform where individuals can share their collections and interests with others who have similar passions.</p>
+</b>
+    <h2><u><br>Pages</u></h2>
+    <ul style="font-size: 24px;color: #de2323;">
+        
+        <li><strong>home:</strong> The main page of the website.</li><br>
+        <li><strong>Collections:</strong> A page dedicated to different collections.</li><br>
+        <li><strong>Gallery:</strong> A page where visitors can view images of various collections.</li>
+        <li><strong>Feedback:</strong> A page where visitors can share their thoughts and opinions.</li>
+        <li><strong>Contact Us:</strong> A page where visitors can contact us.</li>
+        
+    </b>
+    </ul>
+    <form method="post" action="submit-feedback.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" required></textarea>
+        
+        <input type="submit" value="Submit Feedback">
+      </form>
+      
+ 
+    <!-- other content for your website -->
+ 
+</body>
+</html>
+ 
